@@ -5,3 +5,7 @@
 *.pem
 *.key
 credentials
+*.zip
+terraform/CHANGELOG.md
+terraform/LICENSE
+terraform/README.md
