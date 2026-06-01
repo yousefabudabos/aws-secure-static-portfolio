@@ -1,26 +1,83 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
-    <title>Yousef Abudabos - Cloud & DevOps Engineer</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yousef Abudabos — Cloud & DevOps Engineer</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            text-align: center;
+            padding: 2rem;
+            max-width: 700px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #38bdf8;
+            margin-bottom: 0.5rem;
+        }
+        h2 {
+            font-size: 1.2rem;
+            color: #94a3b8;
+            margin-bottom: 2rem;
+            font-weight: 400;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+        .skill {
+            background: #1e293b;
+            border: 1px solid #334155;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: #38bdf8;
+        }
+        .links a {
+            color: #38bdf8;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1rem;
+        }
+        .links a:hover { text-decoration: underline; }
+        .badge {
+            margin-top: 2rem;
+            font-size: 0.8rem;
+            color: #475569;
+        }
+    </style>
 </head>
-
 <body>
-
-    <h1>Yousef Abudabos</h1>
-
-    <h2>Cloud & DevOps Engineer</h2>
-
-    <p>Skills: Linux | AWS | Terraform | Docker | Kubernetes</p>
-
-    <p>GitHub: <a href="https://github.com/yousefabudabos">github.com/yousefabudabos</a></p>
-
+    <div class="container">
+        <h1>Eng. Yousef Abudabos</h1>
+        <h2>Cloud & DevOps Engineer</h2>
+        <div class="skills">
+            <span class="skill">AWS</span>
+            <span class="skill">Terraform</span>
+            <span class="skill">Linux</span>
+            <span class="skill">Docker</span>
+            <span class="skill">Kubernetes</span>
+            <span class="skill">CI/CD</span>
+            <span class="skill">Security</span>
+        </div>
+        <div class="links">
+            <a href="https://github.com/yousefabudabos" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/yousefabudabos" target="_blank">LinkedIn</a>
+        </div>
+        <p class="badge">Hosted on AWS S3 + CloudFront | Deployed with Terraform</p>
+    </div>
 </body>
-
 </html>
-
